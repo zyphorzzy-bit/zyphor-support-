@@ -1,16 +1,15 @@
 {
   "name": "bot-ticket-zyphor",
   "version": "1.0.0",
-  "description": "Sistema de suporte por tickets privados com tópicos e logs",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5"
-  },
-  "engines": {
-    "node": ">=16.11.0"
   }
 }
